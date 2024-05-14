@@ -94,3 +94,59 @@ To use this data you can use the EO Browser browser. First we select the place, 
 
 ![S2L2A-timelapse_Puerto Arenales](https://github.com/BarbaraAngelesOrtiz/Actin-Space-2020/assets/105976212/685d98f2-f176-4e16-a082-8a9124cccde4)
 
+We used Ulyssys Water Quality Viewer (UWQV) which is a custom script for Sentinel-hub EO-Browser to dynamically visualize the chlorophyll and sediment conditions of water bodies in Sentinel-2 and Sentinel-3 images.
+
+The visualization you see is the product of two masking operations and two visualizations of water quality parameters:
+
+● cloud masking
+● water masking
+● visualization of suspended sediment concentration
+● chlorophyll concentration display
+
+By default, all pixels identified as "non-water" (cloud, snow, or land) are displayed in true color. All pixels identified as water are colored with an algorithm that evaluates the concentration of chlorophyll and suspended sediment together. This visualization can be compared to a GIS map with two raster layers, sediment on top and chlorophyll on the bottom. The sediment "layer" is semi-transparent and may cover the chlorophyll "layer." Like clouds in the atmosphere, sediment in water reduces transparency and obscures chlorophyll.
+
+Therefore, water pixels with high sediment concentrations are colored dark brown regardless of their chlorophyll concentration. Medium sediment concentrations are wheat colored (light brown) with increasing transparency towards lower sediment concentrations. At low sediment concentrations, the sediment "layer" is completely transparent. Below the “layer” of semi-transparent sediment, the concentration of chlorophyll is visualized. High chlorophyll concentrations are marked in red, medium concentrations in green, and low concentrations in dark blue (see palette image below).
+
+![Screenshot 2024-05-14 231056](https://github.com/BarbaraAngelesOrtiz/Actin-Space-2020/assets/105976212/5236346f-4247-4fc6-85c1-30d762a08df7)
+
+By changing the script input parameters it is also possible:
+
+● display only sediments or only chlorophyll concentrations
+● switch between various cloud and water masking algorithms (even turning off masking completely)
+● Alter the default numerical thresholds (min/max values) to adjust the display to better suit local conditions
+● render water (foreground) and/or non-water (background) pixels with the image true color or a single constant color with opacity
+
+In the future it is proposed to create a custom script considering the following factors:
+
+1. How Light Interacts with Water
+![Screenshot 2024-05-14 231353](https://github.com/BarbaraAngelesOrtiz/Actin-Space-2020/assets/105976212/913d381c-d404-4c9a-9bbb-6fd471e4c7e8)
+
+Inherent Optical Properties
+a = absorption by:
+● phytoplankton (ph)
+● non-algal particles (nap)
+● colored dissolved organic matter (CDOM)
+● water (w)
+b = forward (f) and backward (b) dispersion
+
+![Screenshot 2024-05-14 231659](https://github.com/BarbaraAngelesOrtiz/Actin-Space-2020/assets/105976212/b4e8c4b2-7ed2-4300-ad37-110a1e3bca31)
+
+Inherent Optical Properties
+• a = absorption
+• b = dispersion
+Apparent Optical Properties
+• Lw = radiance from water
+• Lu = ascending radiance
+• Ed = descending radiance
+• Rrs = remote sensing reflectance (rs)
+
+Where the absorption (a) of light is by phytoplankton (ph), non-algal particles (nap), water (w) and colored dissolved organic matter (CDOM)
+    a = aph + anap + aCDOM + aw
+    
+And the scattering (b) of light by particles forward (bf) and backward (bb)
+    b = bf + bb
+    
+In Situ measurements are necessary to build a dynamic threshold that adapts to the natural behavior of the variable, to automatically detect algae and chlorophyll blooms.
+
+![Screenshot 2024-05-14 231950](https://github.com/BarbaraAngelesOrtiz/Actin-Space-2020/assets/105976212/96c4e261-61d4-4d58-bf76-d2716ad90903)
+
