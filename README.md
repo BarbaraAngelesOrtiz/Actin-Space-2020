@@ -1,38 +1,38 @@
 # Actin-Space-2020
 ACTINSPACE CHALLENGE AIRBUS 01 - Fight for Climate Change- Fight for climate change with Earth Observation satellite data
 
-#Presentation
+# Presentation
 
 The creation of a global map of maritime CO2 emissions will support evidence-based policymaking. We believe it is essential to address climate change and reduce the carbon footprint of maritime transport, in order to promote sustainability through existing smart technology and satellite data.
 The model supports the creation of a global map, identifying both the geographic concentrations and the accumulation over time of CO2 emissions from maritime transport and mining production areas, among others, that use bodies of water as raw materials. This will allow environmental policy formulation to be based on factual evidence, allowing greater contribution from national and regional authorities to support the regulatory efforts of the relevant bodies.
 
-#Project development
+# Project development
 
 Our project aims to manage information obtained through satellite data in order to optimize the management of resources by collaborating with our clients to improve the decision-making process.
 The satellite information we offer is organized in a structured way and aims to guide our clients towards rational, sustainable and sustainable mining and aquifer exploitation, preserving the care, development and diversity of natural and social ecosystems. It is also aimed at clients who have vessels in ports and fishing areas.
 
 Our team is interdisciplinary ranging from engineers, chemists, biologists, computer/data sciences and social sciences. The interdisciplinary work tables allow for an in-depth evaluation of the data and the actors involved in the exploitation chain to generate deeper analyzes and achieve better and optimal results.
 
-##Market positioning
+## Market positioning
 
   We are a software-based project whose main asset is knowledge. We will compete in the technology-based data market segment of the knowledge economy with those companies with their own and non-own satellite developments.
   
 Our value proposition is to provide highly classified information contemplating the impact of our clients' activity both on a resource scale and on an ecological and social scale. In this way, in addition to offering a satellite data service to improve decision-making about resources, we provide strong support and advice regarding the impact that these decisions could cause at a socio-ecological level so that clients and investors find in our clients companies with reliable, sustainable and sustainable projects.
 In this sense, our service does not replace terrestrial information obtained from other sources of our clients, but rather complements it for greater effectiveness in decision making. Our vocation towards the market and our competitors is to grow collaboratively since we believe that, in a society committed to caring for the environment, we can innovate by developing new technologies and implement existing data from satellites through digitalization.
 
-##Product/service
+## Product/service
 
 The organization of this service consists of acquiring satellite images already processed through specialized software, so that our clients (companies in the sector and/or government organizations, for example) can develop more effective decision-making strategies with a positive impact. for the industry and the environment.
 Initially, the tools provided by IBM Watson will be used to create models from Visual Recognition where the results of new images obtained can be compared and thus be able to classify them effectively based on already determined patterns.
 In the future, it is planned, through machine learning, to process images with our codes and custom layers to obtain a better image indicating CO2, among other compounds, in ports and aquifers.
 
-##Sales strategy
+## Sales strategy
 
 Our sales strategy is through meetings with different actors in the mining and aquifer sector to inform about the importance of using satellite data to improve decision making and to have a positive image before society and investors.
 
 On the other hand, generate meeting spaces with civil society actors to inform about the joint work that takes place with these companies in the sector to not only reduce the negative impact of these companies, but also to commit them to local development.
 
-##Projections
+## Projections
 
 We would start at no cost because the initial data collection would be through public data and storing data on servers (cloud), which are free, but according to the client's requirement, the indicated cloud will be used for their Big Data system.
 
@@ -42,7 +42,7 @@ Since our project has a strong software base, we consider that in the first phas
 
 Furthermore, private companies will continue to exploit resources, so the idea is to generate projects and meeting spaces that promote and raise awareness about sustainability and care for the environment and the cultural environment through the management of information provided. by satellite data to make sustainable decisions.
 
-#Measurement Parameters
+# Measurement Parameters
 
 Space remote sensing is the technique that allows images of the Earth's surface to be acquired from sensors installed on space platforms, assuming that there is an energetic interaction between the sensor and the Earth, either by reflection of solar energy (in the case of optical sensors), the emission from the Earth (thermal sensors) or from an artificial energy beam of its own emission (radar sensors). In turn, this energy beam received and transformed into a signal by the sensor must be transmitted to the Earth's surface to be analyzed and interpreted.
 
@@ -61,7 +61,7 @@ Phytoplankton have the ability to selectively absorb light in the visible region
 
 ![Screenshot 2024-05-14 222310](https://github.com/BarbaraAngelesOrtiz/Actin-Space-2020/assets/105976212/6d3e7f33-925a-4e23-8254-9a71663ccd6b)
 
-#Satellite Data
+# Satellite Data
 
 The idea consists of the integration of satellite data coming mainly from the ESA to our application through a machine learning method which will process the data and provide statistical results and modeling using dynamic graphics.
 
