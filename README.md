@@ -121,7 +121,7 @@ In the future it is proposed to create a custom script considering the following
 1. How Light Interacts with Water
 ![Screenshot 2024-05-14 231353](https://github.com/BarbaraAngelesOrtiz/Actin-Space-2020/assets/105976212/913d381c-d404-4c9a-9bbb-6fd471e4c7e8)
 
-Inherent Optical Properties
+2. Inherent Optical Properties
 a = absorption by:
 ● phytoplankton (ph)
 ● non-algal particles (nap)
