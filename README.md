@@ -141,9 +141,11 @@ Apparent Optical Properties
 • Rrs = remote sensing reflectance (rs)
 
 Where the absorption (a) of light is by phytoplankton (ph), non-algal particles (nap), water (w) and colored dissolved organic matter (CDOM)
+
     a = aph + anap + aCDOM + aw
     
 And the scattering (b) of light by particles forward (bf) and backward (bb)
+
     b = bf + bb
     
 In Situ measurements are necessary to build a dynamic threshold that adapts to the natural behavior of the variable, to automatically detect algae and chlorophyll blooms.
