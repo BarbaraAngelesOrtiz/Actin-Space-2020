@@ -152,3 +152,14 @@ In Situ measurements are necessary to build a dynamic threshold that adapts to t
 
 ![Screenshot 2024-05-14 231950](https://github.com/BarbaraAngelesOrtiz/Actin-Space-2020/assets/105976212/96c4e261-61d4-4d58-bf76-d2716ad90903)
 
+  ## Author
+**Bárbara Ángeles Ortiz**
+
+ <img src="https://avatars.githubusercontent.com/u/105976212?v=4" width=115><br><sub></sub>
+
+[LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/) | [GitHub](https://github.com/BarbaraAngelesOrtiz)
+
+![Status](https://img.shields.io/badge/status-finished-brightgreen)
+
+![Python](https://img.shields.io/badge/python-3.10-blue)
+
