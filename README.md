@@ -161,5 +161,4 @@ In Situ measurements are necessary to build a dynamic threshold that adapts to t
 
 ![Status](https://img.shields.io/badge/status-finished-brightgreen)
 
-![Python](https://img.shields.io/badge/python-3.10-blue)
 
